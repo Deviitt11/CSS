@@ -1,0 +1,11 @@
+/* Set the background color of the body to DarkSlateGrey */
+body {
+    background-color: darkslateblue;
+}
+
+/* Center-align the headings and paragraphs, and set their text color to white */
+h2, p {
+    text-align: center;
+    color: white;
+}
+
