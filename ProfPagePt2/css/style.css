@@ -1,0 +1,19 @@
+/* Set the font-family of the body to Arial, sans-serif */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center-align the #profile section and color its text with #FFFFFF */
+#profile {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Color .active-day elements with #00CC00 and .inactive-day with #CCCCCC to represent active and inactive days, respectively */
+.active-day {
+    color: #00CC00;
+}
+
+.inactive-day {
+    color: #CCCCCC;
+}
