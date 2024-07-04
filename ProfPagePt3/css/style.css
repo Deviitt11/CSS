@@ -1,0 +1,20 @@
+/* Override the default list style from the lists in both profile 
+and streak sections by setting list-style to none */
+/* Give the list in the #streak section a contrasting white background 
+and add rounded corners with a border-radius of 5px */
+#streak li {
+    list-style: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#profile li {
+    list-style: none;
+}
+
+/* Change the color of the paragraphs in the streak section to #676767 
+so the text can be read on the new background */
+#streak p {
+    color: #676767;
+}
+
