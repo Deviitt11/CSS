@@ -1,0 +1,26 @@
+/* Apply display: inline to the list items in the profile section 
+and add a 15px margin around them */
+#profile li {
+    display: inline;
+    margin: 15px;
+}
+
+/* Add a 10px padding-top to the whole streak section (container) */
+#streak {
+    padding-top: 10px;
+}
+
+/* Apply display: inline to the list in the streak section 
+and give it 5px margin and 5px padding */
+#streak ul {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Apply display: inline to the paragraphs in the streak section 
+and add a 10px margin */
+#streak p {
+    display: inline;
+    margin: 10px;
+}
