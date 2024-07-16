@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>John Doe's Profile</title>
+  <style>
+    @keyframes pulse {
+    0% {
+        font-size: 100%;
+        color: #00CC00;
+      }
+      50% {
+        font-size: 120%;
+        color: #00CC00;
+      }
+      100% {
+        font-size: 100%;
+        color: #00CC00;
+      }
+    }
+  </style>
+</head>
+<!-- Set the background color of the body to DarkSlateGrey -->
+<body style="background-color: darkslategrey; font-family: Arial, sans-serif;"> 
+  <ul id="profile" style="text-align: center; color: #FFFFFF; list-style: none;">
+    <img src="https://blob.sololearn.com/courses/ava.png">
+    <h2 style="text-align: center; color: white;">John Doe</h2>
+    <p>🇺🇸USA</p>
+    <li style="display: inline; margin: 15px;">25 Followers</li>
+    <li style="display: inline; margin: 15px;">20 Following</li>
+    <li style="display: inline; margin: 15px;">⭐️1581 XP</li>
+  </ul>
+  <div id="streak" style="list-style: none; padding-top: 10px;">Streak
+    <ul style="background-color: white; border-radius: 5px; display: inline; margin: 5px; padding: 5px;">
+      <li class="active-day" style="color: #00CC00; animation: pulse 2s infinite;">M</li>
+      <li class="active-day" style="color: #00CC00; animation: pulse 2s infinite">T</li>
+      <li class="active-day" style="color: #00CC00; animation: pulse 2s infinite">W</li>
+      <li class="inactive-day" style="color: #CCCCCC;">T</li>
+      <li class="inactive-day" style="color: #CCCCCC;">F</li>
+      <li class="inactive-day" style="color: #CCCCCC;">S</li>
+      <li class="inactive-day" style="color: #CCCCCC;">S</li>
+    </ul>
+    <p style="text-align: center; color: #676767 ; display: inline; margin: 10px;">Current Streak: 3</p>
+    <p style="text-align: center; color: #676767 ; display: inline; margin: 10px;">Longest Streak: 16</p>
+  </div>
+</body>
+</html>

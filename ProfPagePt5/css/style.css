@@ -1,0 +1,24 @@
+/* Apply animation-name: pulse to the .active-day elements */
+/* Make the duration of the animation 2s and ensure 
+it plays infinite times */
+.active-day {
+    animation: pulse 2s infinite;
+}
+
+/* Use @keyframes for the pulse animation to make the 
+text size change from 100% and 120% and back again, 
+and change the color to #00CC00 at the 50% mark of the animation */
+@keyframes pulse {
+    0% {
+        font-size: 100%;
+        color: #00CC00;
+      }
+      50% {
+        font-size: 120%;
+        color: #00CC00;
+      }
+      100% {
+        font-size: 100%;
+        color: #00CC00;
+      }
+}
